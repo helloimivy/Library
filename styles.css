@@ -1,0 +1,53 @@
+table {
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+}
+
+container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  /* width: 50%; */
+}
+
+.hidden {
+  display: none;
+}
+
+table td {
+  border: 1px dotted black;
+}
+
+table th {
+  width: calc(100% / 6);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+}
+
+#newBookButton,
+submit {
+  margin-top: 20px;
+}
+input {
+  width: 50%;
+  margin: 2px auto;
+}
+
+form {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+form button {
+  margin-top: 5px;
+}
